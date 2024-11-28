@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.Qalqulator" parent="Theme.MaterialComponents.DayNight">
+        <!--   Color for the app bar and other primary UI elements. -->
+        <item name="colorPrimary">@color/bgDark</item>
+        <!--   A darker variant of the primary color, used for
+       the status bar (on Android 5.0+) and contextual app bars. -->
+        <item name="colorPrimaryDark">@color/bgDark</item>
+        <!--   a secondary color for controls like checkboxes and text fields. -->
+        <item name="colorAccent">@color/textDark</item>
+    </style>
+
+    <style name="bgStyle">
+        <item name="android:background">@color/bgDark</item>
+    </style>
+
+    <style name="bg2Style">
+        <item name="android:background">@color/secBgDark</item>
+    </style>
+
+    <style name="textViewStyle">
+        <item name="android:textColor">@color/textDark</item>
+    </style>
+
+    <style name="buttonStyle">
+        <item name="android:background">@color/bgDark</item>
+    </style>
+
+    <style name="outputStyle">
+        <item name="android:textColor">@color/outputDark</item>
+    </style>
+
+</resources>

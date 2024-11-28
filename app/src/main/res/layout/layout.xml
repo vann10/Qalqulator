@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    style="@style/bgStyle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="start"
+    tools:context=".MainActivity">
+
+    <Switch
+        android:id="@+id/switchTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/table_layout"
+        android:layout_alignParentStart="true"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+        android:thumb="@drawable/thumb"
+        android:track="@drawable/track"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <TextView
+        android:id="@+id/calculate"
+        style="@style/textViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/pixelate"
+        android:maxLength="15"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/sum"
+        style="@style/outputStyle"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_above="@id/delete"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="@font/pixelate"
+        android:textAlignment="viewEnd"/>
+
+    <ImageButton
+        android:id="@+id/delete"
+        style="@style/bgStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/table_layout"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/delete"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TableLayout
+        android:id="@+id/table_layout"
+        style="@style/bg2Style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="5dp"
+        android:stretchColumns="*">
+
+        <TableRow>
+
+            <ImageButton
+                android:id="@+id/clear"
+                style="@style/bg2Style"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/clear" />
+
+            <ImageButton
+                android:id="@+id/brackets"
+                style="@style/bg2Style"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/brackets" />
+
+            <ImageButton
+                android:id="@+id/percent"
+                style="@style/bg2Style"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/percent" />
+
+            <ImageButton
+                android:id="@+id/divide"
+                style="@style/bg2Style"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/divide" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageButton
+                android:id="@+id/num1"
+                style="@style/bg2Style"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/one" />
+
+            <ImageButton
+                android:id="@+id/num2"
+                style="@style/bg2Style"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/two" />
+
+            <ImageButton
+                android:id="@+id/num3"
+                style="@style/bg2Style"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/tri" />
+
+            <ImageButton
+                android:id="@+id/multi"
+                style="@style/bg2Style"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/multi" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageButton
+                android:id="@+id/num4"
+                style="@style/bg2Style"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/four" />
+
+            <ImageButton
+                android:id="@+id/num5"
+                style="@style/bg2Style"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/five" />
+
+            <ImageButton
+                android:id="@+id/num6"
+                style="@style/bg2Style"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/six" />
+
+            <ImageButton
+                android:id="@+id/plus"
+                style="@style/bg2Style"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/plus" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageButton
+                android:id="@+id/num7"
+                style="@style/bg2Style"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/seven" />
+
+            <ImageButton
+                android:id="@+id/num8"
+                style="@style/bg2Style"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/eight" />
+
+            <ImageButton
+                android:id="@+id/num9"
+                style="@style/bg2Style"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/nine" />
+
+            <ImageButton
+                android:id="@+id/minus"
+                style="@style/bg2Style"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/minus" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageButton
+                android:id="@+id/negative"
+                style="@style/bg2Style"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/negative" />
+
+            <ImageButton
+                android:id="@+id/nol"
+                style="@style/bg2Style"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/nol" />
+
+            <ImageButton
+                android:id="@+id/point"
+                style="@style/bg2Style"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/point" />
+
+            <ImageButton
+                android:id="@+id/equals"
+                style="@style/bg2Style"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/equals" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

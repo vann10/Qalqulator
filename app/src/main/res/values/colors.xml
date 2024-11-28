@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mainColor">#1f5154</color>
+    <color name="secondColor">#ababab</color>
+    <color name="output">#29652f</color>
+    <color name="buttonColor">#5699A3</color>
+    <color name="textColor">#1E1E1E</color>
+    <color name="deleteColor">#D9D9D9</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#123123</color>
+
+    <color name="bgLight">#F0FDFF</color>
+    <color name="secBgLight">#E4EFF2</color>
+    <color name="textLight">#5B7A8C</color>
+    <color name="btnLight">#D1E0E6</color>
+
+    <color name="bgDark">#1F2326</color>
+    <color name="secBgDark">#2E373C</color>
+    <color name="btnDark">#3F4B4F</color>
+    <color name="textDark">#8EAFBC</color>
+
+    <color name="clear">#C4560C</color>
+    <color name="operation">#208A9F</color>
+    <color name="equals">#208A9F</color>
+    <color name="outputLight">#13515d</color>
+    <color name="outputDark">#249ab2</color>
+
+
+</resources>
